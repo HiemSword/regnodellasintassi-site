@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
-# gem "jekyll", ">= 3.8.5" #for standalone
-gem "github-pages", group: :jekyll_plugins # for github
+gem "jekyll", ">= 3.8.5" #for standalone
+#gem "github-pages", group: :jekyll_plugins # for github
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
