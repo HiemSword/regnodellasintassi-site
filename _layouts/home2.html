@@ -1,0 +1,262 @@
+---
+layout: default
+---
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('img/media/RegnoSintassi.jpg');
+  min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url("img/media/ReTrono_Colorato2.jpg");
+  min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+  background-image: url("img/media/mediaval-city.jpg");
+  min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones 
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}*/
+</style>
+<body>
+
+
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle w3-mobile" style="white-space:nowrap;">
+    <!-- <span class="w3-center w3-padding-large w3-black w3-large w3-wide w3-animate-opacity"><span class="w3-hide-small">IL </span>REGNO<span class="w3-hide-small"> DELLA</span> SINTASSI</span> -->
+    <span class="w3-center w3-padding-large w3-black w3-animate-left"><span class="w3-hide-small">IL </span>REGNO DELLA SINTASSI</span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="benvenuto">
+  <h3 class="w3-center">BENVENUTO NEL MIO REGNO!</h3>
+  <p class="w3-center"><em><!--Versione dev 05--></em></p>
+  <p>Benvenuto! Fai come se fossi a casa tua in questo magnifico regno. Qui puoi guardare i miei disegni molto brutti fatti con p a i n t, oppure, puoi guardare i miei blog dove dico cose della mia vita.
+    La scelta è tua.</p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b><i class="fa fa-user w3-margin-right"></i>Il Re della Sintassi</b></p><br>
+      <img src="media/ReSintassi_avatar.png" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="230" height="100">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <p>Nel 05/10/2018, a causa di qualche idiota che ha confuso il termine "sintassi" con il "poter scrivere e rispondere a messaggi inviati da un utente" dei bot, è nato il Re Della Sintassi</p>
+      <a href=https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpics.me.me%2Fno-u-spell-card-no-u-deflects-all-roasts-29807977.png&f=1&nofb=1><b><i>Work In Progress...</i></b></a></p>
+
+
+    </div>
+  </div>
+  <!--<p class="w3-large w3-center w3-padding-16">Im really good at:</p>
+  <p class="w3-wide"><i class="fa fa-camera"></i>Photography</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-laptop"></i>Web Design</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-photo"></i>Photoshop</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
+  </div>-->
+</div>
+
+<!--<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">14+</span><br>
+    Partners
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">55+</span><br>
+    Projects Done
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">89+</span><br>
+    Happy Clients
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">150+</span><br>
+    Meetings
+  </div>
+</div>-->
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">BLOG DELLA SINTASSI</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="blog">
+  <h3 class="w3-center">BLOG SINTASSIOSI</h3>
+  <p class="w3-center">Ecco una lista dei miei blog</p>
+
+
+  <div class="w3-row-padding w3-center">
+    <div class="w3-row">
+      <div class="w3-col">
+
+        {{ content }}
+
+        <!-- Home Post List -->
+        {% for post in site.posts limit : 3 %}
+
+        <article class="post-preview">
+          <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+            <h2 class="post-title">{{ post.title }}</h2>
+            {% if post.subtitle %}
+            <h3 class="post-subtitle">{{ post.subtitle }}</h3>
+            {% else %}
+            <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
+            {% endif %}
+          </a>
+          <p class="post-meta">Posted by
+            {% if post.author %}
+            {{ post.author }}
+            {% else %}
+            {{ site.author }}
+            {% endif %}
+            on
+            {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}            
+          </p>
+        </article>
+
+        <hr>
+
+        {% endfor %}
+
+        <!-- Pager -->
+        <div class="clearfix">
+          <a class="btn btn-primary float-right" href="{{"/posts" | relative_url }}">View All Posts &rarr;</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">CONTATTI DEL REGNO</h3>
+  <p class="w3-center"><em>Contatta la mia segretaria della sintassi</em></p>
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+      <img src="media/ReTrono_Colorato.jpg" class="w3-image w3-round" style="width:100%">
+    </div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Castello del Regno, Regno Della Sintassi<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: 009-393-Re-Sintassi<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: ilredellasintassi@king.com<br>
+      </div>
+      <!--<p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>-->
+      <form action="/action_page.php" target="_blank">
+        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+          </div>
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+          </div>
+        </div>
+        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+        <button class="w3-button w3-black w3-right w3-section" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE (fake)
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-round w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <!-- <a href="blogTemplate.html"><i class="fa fa-facebook-official w3-hover-opacity"></i></a> -->
+    <a href="https://bit.ly/instagramRe"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <!-- <a href="blogTemplate.html"></a><i class="fa fa-snapchat w3-hover-opacity"></i></a> -->
+    <!-- <a href="blogTemplate.html"></a><i class="fa fa-pinterest-p w3-hover-opacity"></i></a> -->
+    <a href="https://bit.ly/twitterRe"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <a href="https://bit.ly/youtubeRe"><i class="fa fa-youtube w3-hover-opacity"></i></a>    
+    <!-- <a href="blogTemplate.html"></a><i class="fa fa-linkedin w3-hover-opacity"></i></a> -->
+    </div class="w3-display-bottomleft">
+      <p>Copyright © 2020 Il regno del re della sintassi. All Rights Reserved.</p>
+  </div>
+</footer>
+
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
