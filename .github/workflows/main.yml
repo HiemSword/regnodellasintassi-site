@@ -10,7 +10,7 @@ jobs:
       - name: Deploy to regnosintassi.surge.sh
         uses: dswistowski/surge-sh-action@v1
         with:
-          domain: 'regnosintassi.surge.sh'
+          domain: 'regnodellasintassi.surge.sh'
           project: '.'
           login: ${{ secrets.surge_login }}
           token: ${{ secrets.surge_token }}
