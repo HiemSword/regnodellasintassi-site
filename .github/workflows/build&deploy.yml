@@ -20,10 +20,8 @@ jobs:
     - name: Build Jekyll
       uses: jerryjvl/jekyll-build-action@v1
       
-    - name: Deploy to regnodellasintassi.surge.sh
-      uses: dswistowski/surge-sh-action@v1
+    - name: Upload Jekyll build
+      uses: actions/upload-artifact@v2
       with:
-        domain: 'regnodellasintassi.surge.sh'
-        project: './workspace/_site'
-        login: ${{ secrets.surge_login }}
-        token: ${{ secrets.surge_token }}
+        name: my-artifact
+        path: /github/workspace/_site # or path/to/artifact
