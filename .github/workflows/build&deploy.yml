@@ -1,0 +1,25 @@
+name: Jekyll site CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    
+    - name: Build Jekyll
+      uses: jerryjvl/jekyll-build-action@v1
+      
+    - name: Deploy to regnodellasintassi.surge.sh
+      uses: dswistowski/surge-sh-action@v1
+      with:
+        domain: 'regnodellasintassi.surge.sh'
+        project: '.'
+        login: ${{ secrets.surge_login }}
+        token: ${{ secrets.surge_token }}
