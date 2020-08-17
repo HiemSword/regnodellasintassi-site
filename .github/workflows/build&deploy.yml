@@ -24,8 +24,8 @@ jobs:
       run: ls -l
 
 
-#    - name: Upload Jekyll build
-#      uses: actions/upload-artifact@v2
-#      with:
-#        name: my-artifact
-#        path: /github/workspace/_site # or path/to/artifact
+    - name: Upload Jekyll build
+      uses: actions/upload-artifact@v2
+      with:
+        name: my-artifact
+        path: ./_site # or path/to/artifact
