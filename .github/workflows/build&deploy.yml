@@ -20,10 +20,12 @@ jobs:
     - name: Build Jekyll
       uses: jerryjvl/jekyll-build-action@v1
       
-    - name: Check dir
-      run: cd ./_site | ls -l
+    - run: cd ./_site
       
-    - name: Deploy to foo-bar.surge.sh
+    - name: Check dir
+      run: ls -l
+      
+    - name: Deploy to regnodellasintassi.surge.sh
       uses: dswistowski/surge-sh-action@v1
       with:
         domain: 'regnodellasintassi.surge.sh'
