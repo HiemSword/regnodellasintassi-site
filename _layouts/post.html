@@ -52,3 +52,11 @@ layout: default
       </div>
     </div>
   </div>
+
+  <div class="container" id="comments">
+    {% if page.comments == true %}
+      {% include comments.html %}
+    {% endif %}
+  </div>
+
+</header>

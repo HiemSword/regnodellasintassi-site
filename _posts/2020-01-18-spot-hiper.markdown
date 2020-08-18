@@ -4,6 +4,7 @@ title: "SPOT HIPER"
 subtitle: "VIENI VIENI A GUARDARE I NOSTRI SUPER HIPER SKONTIIII"
 date: 2020-08-17 12:00:00 -0400
 background: '/img/media/iper.jpg'
+comments: true
 ---
 
 DAMM GUARDA KE SKONTIIII\
