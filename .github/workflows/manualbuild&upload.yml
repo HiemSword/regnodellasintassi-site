@@ -10,21 +10,25 @@ on:
     inputs:
       name:
         # Friendly description to be shown in the UI instead of 'name'
-        description: 'Person to greet'
+        description: 'Artifact name'
         # Default value if no value is explicitly provided
-        default: 'World'
+        default: '_site'
         # Input has to be provided for the workflow to run
-        required: true
+        required: false
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "greet"
-  greet:
-    # The type of runner that the job will run on
+  build:
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    # Runs a single command using the runners shell
-    - name: Send greeting
-      run: echo "Hello ${{ github.event.inputs.name }}"
+    - name: Checkout
+      uses: actions/checkout@v2
+      
+    - name: Build Jekyll
+      uses: jerryjvl/jekyll-build-action@v1
+
+    - name: Upload Jekyll build
+      uses: actions/upload-artifact@v2
+      with:
+        name: ${{ github.event.inputs.name }}"
+        path: ./_site # or path/to/artifact
