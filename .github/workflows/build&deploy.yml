@@ -20,11 +20,6 @@ jobs:
     - name: Build Jekyll
       uses: jerryjvl/jekyll-build-action@v1
       
-    - run: cd ./_site
-      
-    - name: Check dir
-      run: ls -l
-      
     - name: Deploy to regnodellasintassi.surge.sh
       uses: dswistowski/surge-sh-action@v1
       with:
@@ -33,9 +28,3 @@ jobs:
         login: ${{ secrets.surge_login }}
         token: ${{ secrets.surge_token }}
 
-
-    - name: Upload Jekyll build
-      uses: actions/upload-artifact@v2
-      with:
-        name: my-artifact
-        path: ./_site # or path/to/artifact
