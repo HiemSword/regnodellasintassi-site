@@ -2,7 +2,7 @@
 layout: post
 title: "SPOT HIPER"
 subtitle: "VIENI VIENI A GUARDARE I NOSTRI SUPER HIPER SKONTIIII"
-date: 2020-08-17 12:00:00 -0400
+date: 2020-08-18 12:00:00 -0100
 background: '/img/media/iper.jpg'
 comments: true
 ---
