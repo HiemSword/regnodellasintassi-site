@@ -1,11 +1,11 @@
-
+<!-- Comment.html -->
 {%- capture article_class %}js-comment comment{% if include.name == site.author.name %} admin{% endif %}{% if include.is_reply %} child{% endif %}{% endcapture %}
 {% assign comment_id = include.uid | prepend: 'comment-' %}
 <article id="{{ comment_id }}" class="{{ article_class }}" uid="{{ include.uid }}">
 
-  <div class="comment__author">
+  <div class="comment__author" style="color: coral;">
     {{- include.name | strip_html -}},
-    <span class="comment__date">
+    <span class="comment__date" style="color: black;">
       {%- if include.date -%}
         <a href="#{{ comment_id}}" title="Permalink to this comment">
         {{- include.date | date:"%B %eth, %Y %H:%M" -}}
@@ -14,7 +14,7 @@
     </span>
   </div>
 
-  <div class="comment__body">
+  <div class="comment__body" style="color: rgb(124, 124, 124);">
     {{ include.message | strip_html | markdownify }}
   </div>
 
@@ -22,7 +22,7 @@
 </article>
 {% else %}
     <div class="comment__meta">
-      <a rel="nofollow" class="comment__reply-link" onclick="return addComment.moveForm('{{ comment_id }}', 'respond', '{{ page.slug }}', '{{ include.uid }}')">↪&#xFE0E; Reply to {{ include.name }}</a>
+      <a rel="nofollow" class="comment__reply-link" onclick="return addComment.moveForm('{{ comment_id }}', 'respond', '{{ page.slug }}', '{{ include.uid }}')">↪&#xFE0E; Rispondi a <i style="color: rgb(100, 100, 100);">{{ include.name }}</i></a>
     </div>
 </article>
 
@@ -39,5 +39,5 @@
     {% include comment.html is_reply=true uid=uid email=email name=name url=url date=date message=message %}
   {% endfor %}
 
-  <hr style="border-top: 1px solid #ccc; background: transparent; margin-bottom: 10px;">
+  <hr style="border-top: 1px solid #4d4d4d; background: transparent; margin-bottom: 10px;">
 {% endif %}

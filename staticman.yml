@@ -43,7 +43,7 @@ comments:
   moderation: false
 
   # Name of the site. Used in notification emails.
-  name: "Il blog del re dio funzioni plzz"
+  name: "Il blog del Re della Sintassi"
 
   # Notification settings. When enabled, users can choose to receive notifications
   # via email when someone adds a reply or a new comment. This requires an account
