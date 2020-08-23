@@ -1,3 +1,12 @@
+
+// Tooltips
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+
+
+
 // Static comments
 // from: https://github.com/eduardoboucas/popcorn/blob/gh-pages/js/main.js
 (function ($) {
@@ -8,7 +17,7 @@
   
   
       $("#comment-form-submit").html(
-        '<svg class="icon spin form-group form-control"><use xlink:href="#icon-loading"></use></svg> Inviando...'
+        '<span class="spinner-border spinner-border-sm m-1" role="status" aria-hidden="true"></span>Attendere prego...'
       );
       $(form).addClass('disabled');
   

@@ -15,9 +15,9 @@
       <div class="col-auto">
         <label class="sr-only" for="comment-form-name">Nome Utente</label>
         <small id="nickHelpBlock" class="form-text text-muted">
-          Nickname
+          <i class="far fa-user"></i>Nickname
         </small>
-        <input type="text" name="fields[name]" class="form-control mb-2" id="comment-form-name" placeholder="Yuscatone Porcheddu" required>
+        <input type="text" name="fields[name]" class="form-control mb-2" id="comment-form-name" placeholder="Yuscatone Porcheddu" >
       </div>
 
       <div class="col-auto">
@@ -26,9 +26,12 @@
           Email
         </small>
         <div class="input-group mb-2">
-          <input type="email" name="fields[email]" class="form-control" id="comment-form-email" placeholder="frigo@hiper.com" required>
+          <input type="email" name="fields[email]" class="form-control" id="comment-form-email" placeholder="frigo@hiper.com" data-toggle="tooltip" title="La tua email non verrà condivisa con nessuno ed è criptata nei nostri database una volta ricevuta. Se vuoi richiedere la sua rimozione, contattaci sulla pagina Contact">
         </div>
+        
       </div>
+
+    
 
     </div>
     <div class="form-group">
