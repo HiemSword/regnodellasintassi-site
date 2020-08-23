@@ -8,7 +8,7 @@
   
   
       $("#comment-form-submit").html(
-        '<svg class="icon spin"><use xlink:href="#icon-loading"></use></svg> Sending...'
+        '<svg class="icon spin form-group form-control"><use xlink:href="#icon-loading"></use></svg> Inviando...'
       );
       $(form).addClass('disabled');
   
@@ -18,10 +18,10 @@
         data: $(this).serialize(),
         contentType: 'application/x-www-form-urlencoded',
         success: function (data) {
-          showModal('Comment submitted', 'Thanks! Your comment is <a href="https://github.com/travisdowns/travisdowns.github.io/pulls">pending</a>. It will appear when approved.');
+          showModal('Commento inviato', 'Grazie per il tuo commento! Perfavore aspetta qualche minuto che la pagina si aggiorni con il tuo commento');
   
           $("#comment-form-submit")
-            .html("Submit");
+            .html("Invia");
   
           $(form)[0].reset();
           $(form).removeClass('disabled');
@@ -30,8 +30,8 @@
         error: function (err) {
           console.log(err);
           var ecode = (err.responseJSON || {}).errorCode || "unknown";
-          showModal('Error', 'An error occured.<br>[' + ecode + ']');
-          $("#comment-form-submit").html("Submit")
+          showModal('Errore', "Contatta l'amministratore.\nDettagli errore: <br>[" + ecode + "]");
+          $("#comment-form-submit").html("Invia")
           $(form).removeClass('disabled');
           grecaptcha.reset();
         }
