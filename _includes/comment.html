@@ -4,6 +4,7 @@
 <article id="{{ comment_id }}" class="{{ article_class }}" uid="{{ include.uid }}">
 
   <div class="comment__author" style="color: coral;">
+    <i class="far fa-user-circle m-1" style="color: black;"></i>
     {{- include.name | strip_html -}},
     <span class="comment__date" style="color: black;">
       {%- if include.date -%}

@@ -1,12 +1,3 @@
-
-// Tooltips
-
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-})
-
-
-
 // Static comments
 // from: https://github.com/eduardoboucas/popcorn/blob/gh-pages/js/main.js
 (function ($) {

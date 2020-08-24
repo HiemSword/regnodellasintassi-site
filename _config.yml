@@ -3,14 +3,14 @@ email:              hiemsword08+rsintassi@pm.me
 description:        Benvenuto nel mio Regno! Qui puoi vedere i miei blog sintassiosi
 author:             Re della Sintassi
 baseurl:            ""
-url:                "hiemsword.github.io"
+url:                "regnodellasintassi.surge.sh"
 
 
 # Social Profiles
 twitter_username:   RSintassi
-github_username:    StartBootstrap
-facebook_username:  StartBootstrap
-instagram_username:  
+github_username:    
+facebook_username:  
+instagram_username:  ReSintassi
 linkedin_username:
 
 # Add your google-analytics ID here to activate google analytics
