@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Spot pubblicitario Hiper"
-subtitle: "Un dipendente Hiper"
+subtitle: "dove gli skonti sn bll"
 date: 2020-08-24 12:00:00 -0100
 background: '/img/media/iper.jpg'
-author: exampleAuthor
+author: Un dipendente Hiper
 comments: true
 ---
 
