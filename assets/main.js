@@ -30,7 +30,7 @@
         error: function (err) {
           console.log(err);
           var ecode = (err.responseJSON || {}).errorCode || "unknown";
-          showModal('Errore', "Contatta l'amministratore.\nDettagli errore: <br>[" + ecode + "]");
+          showModal('Errore', "C'è stato un errore durante l'invio del commento. Se l'errore persiste, contattaci. Dettagli errore: <b><br>[" + ecode + "]<b>");
           $("#comment-form-submit").html("Invia")
           $(form).removeClass('disabled');
           grecaptcha.reset();
