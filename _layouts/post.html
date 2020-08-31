@@ -19,7 +19,23 @@ layout: default
             {% endif %}
             <span class="meta">Postato da
               <a href="#">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a>
-              il {{ page.date | date: '%B %d, %Y' }} &middot; {% include read_time.html
+              il <b>{% assign m = page.date | date: "%-m" %}
+              {{ page.date | date: "%-d" }}
+              {% case m %}
+                {% when '1' %}Gennaio
+                {% when '2' %}Febbraio
+                {% when '3' %}Marzo
+                {% when '4' %}April
+                {% when '5' %}Maggio
+                {% when '6' %}Giugno
+                {% when '7' %}Luglio
+                {% when '8' %}Agosto
+                {% when '9' %}Settempre
+                {% when '10' %}Ottobre
+                {% when '11' %}Novembre
+                {% when '12' %}Dicembre
+              {% endcase %}
+              {{ page.date | date: "%Y" }}</b> &middot; {% include read_time.html
               content=page.content %}
             </span>
           </div>

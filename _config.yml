@@ -4,7 +4,8 @@ description:        Benvenuto nel mio Regno! Qui puoi vedere i miei blog sintass
 author:             Re della Sintassi
 baseurl:            ""
 url:                "regnodellasintassi.surge.sh"
-
+timezone: Europe/Rome
+version: '2.5.4'
 
 # Social Profiles
 twitter_username:   RSintassi
