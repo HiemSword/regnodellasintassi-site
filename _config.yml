@@ -5,7 +5,7 @@ author:             Re della Sintassi
 baseurl:            ""
 url:                "regnodellasintassi.surge.sh"
 timezone: Europe/Rome
-version: '2.6.11'
+version: '2.6.13'
 
 permalink: /:categories/:title/
 
@@ -18,27 +18,28 @@ instagram_username:  redellasintassi
 linkedin_username:
 
 # Add your google-analytics ID here to activate google analytics
-google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+# google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
 
 # Build settings
 markdown:           kramdown
-paginate:           5
-paginate_path:      "/posts/page:num/"
+#paginate:           5
+#paginate_path:      "/posts/page:num/"
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
 
 
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 5
+  title: ' - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
+
 # The URL for the staticman API bridge endpoint
-# You will want to modify some of the values:
-#  ${github-username}: the username of the account with which you publish your blog
-#  ${blog-repo}: the name of your blog repository in github
-#  master: this the branch out of which your blog is published, often master or gh-pages
-#  ${bridge_app_name}: the name you chose in Heroku for your bridge API
-#  comments: the so-called property, this defines the key in staticman.yml where the configuration is found
-#
-# for me, this line reads:
-# https://staticman-travisdownsio.herokuapp.com/v2/entry/travisdowns/travisdowns.github.io/master/comments
 staticman_url: https://regnosintassi-staticman.herokuapp.com/v2/entry/HiemSword/regnodellasintassi-site/master/comments
