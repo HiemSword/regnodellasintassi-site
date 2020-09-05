@@ -10,8 +10,9 @@ pagination:
 
 {% for post in paginator.posts %}
 
-<article class="post-preview">
+<article class="post-preview m-4">
   <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+    <img src="{{ post.picture }}" class="rounded float-left m-2" alt="..." width="17%">
     <h2 class="post-title">{{ post.title }}</h2>
     {% if post.subtitle %}
     <h3 class="post-subtitle">{{ post.subtitle }}</h3>
@@ -19,13 +20,6 @@ pagination:
     <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
     {% endif %}
   </a>
-  <p class="post-meta">Mamma mia by
-    {% if post.author %}
-    {{ post.author }}
-    {% else %}
-    {{ site.author }}
-    {% endif %}
-  </p>
 </article>
 
 <hr>
