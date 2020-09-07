@@ -1,29 +1,39 @@
 ---
 layout: passport
-title: "Re della Sintassi"
-subtitle: "Re del regno della Sintassi"
+title: "Sayornave Sintassi"
+subtitle: "Principessa della Sintassi"
 date: 2020-09-05 12:00:00 -0100
 
 background: '/img/bg-cittadini.jpg'
-picture: '/img/media/ReTrono_colorato2.jpg'
+picture: '/img/posts/sayornave.png'
 author: Segretaria della Sintassi
 type: citizen
 ---
 
 
-## **Nome:** Re
+## **Nome:** Sayornave
 
 ----
 
-## **Cognome:** della Sintassi
+## **Cognome:** Sintassi
 
 ----
 
-## **Sesso:** RE
+## **Sesso:** BELLZISSIMA
 
 ----
 
-## **Età:** si
+## **Età:** 15
+
+----
+
+## **Voce:** Acuta però bellzissima
+
+### Esempio:  
+<audio controls>
+  <source src="/audio/izuku_ohofazuletto.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio> 
 
 ----
 
@@ -31,15 +41,15 @@ type: citizen
 
 ----
 
-## **Altezza:** puoi chiamarlo anche Re
+## **Altezza:** abbastanza da colpirti la faccia con i gomiti
 
 ----
 
-## **Peso:** più pesante di un dizionario
+## **Peso:** non si chiede ad una signorina
 
 ----
 
-## **Hobby:** leggerti le sue parole preferite
+## **Hobby:** leggere _mistic adventur_ nel giardino scalza
 
 ----
 
@@ -47,18 +57,18 @@ type: citizen
 
 ----
 
-## **Piace:** La sintassi
+## **Piace:** fare colazione
 
 ----
 
-## **Non piace:** Le fanfiction sgrammaticate
+## **Non piace:** non fare colazione
 
 ----
 
-## **Relazioni:** Giangiggina Gorgoffa (Moglie), Sayornave Sintassi (Figlia)
+## **Relazioni:** Giangiggina Gorgoffa (Madre), Re dela Sintassi (Padre), Izuku Midoriya (Guardia Personale/Miglior Amico), Todoroki Shoto (*cuoricino musichetta*), Sayortsukinave (Cugina)
 
 ----
 
-## **Credenze:** Ci mette i dizionari
+## **Credenze:** Ci poggia tutte le sue cose di mistic adventur
 
 ----

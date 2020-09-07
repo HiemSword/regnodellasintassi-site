@@ -27,6 +27,10 @@ type: citizen
 
 ----
 
+## **Voce:** Acuta però bellzissima
+
+----
+
 ## **Luogo di nascita:** Ospedale sintassioso del Regno della Sintassi
 
 ----
