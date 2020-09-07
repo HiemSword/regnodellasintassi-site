@@ -7,13 +7,16 @@ on:
 
 jobs:
   build:
-
+    name: Surge site build
     runs-on: ubuntu-latest
 
     steps:
     
     - name: Checkout
       uses: actions/checkout@v2
+
+    - name: Update gems
+      run: bundle install
     
     - name: Build Jekyll
       uses: jerryjvl/jekyll-build-action@v1
