@@ -5,7 +5,7 @@ gem "jekyll", ">= 3.8.5" #for standalone
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
-  gem "jekyll-paginate-v2"
+  gem "jekyll-paginate-v2", "~> 3.0"
   gem "jekyll-sitemap"
   gem "jekyll-seo-tag"
 end
