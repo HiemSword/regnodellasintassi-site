@@ -15,13 +15,11 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
-    # Use GitHub Actions' cache to shorten build times and decrease load on servers
-    - uses: actions/cache@v1
+    - uses: ruby/setup-ruby@v1
       with:
-        path: vendor/bundle
-        key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-        restore-keys: |
-          ${{ runner.os }}-gems-
+        ruby-version: 2.6 # Not needed with a .ruby-version file
+        bundler-cache: true
+    - run: bundle install
     
     - name: Build Jekyll
       uses: lemonarc/jekyll-action@1.0.0
