@@ -27,9 +27,8 @@ type: citizen
 
 ----
 
-## **Voce:** Acuta però bellzissima
-
-### Esempio:  
+## **Voce:** 
+  
 <audio controls>
   <source src="/audio/izuku_ohofazuletto.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
