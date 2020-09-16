@@ -1,31 +1,31 @@
 ---
 layout: passport
-title: "Re della Sintassi"
-subtitle: "Re del regno della Sintassi"
+title: "Zen Rettangolo"
+subtitle: "Rettangolo"
 date: 2018-09-05 12:00:00 -0100
 
 background: '/img/bg-cittadini.jpg'
-picture: '/img/media/ReSintassi/re_trono_1.jpg'
+picture: '/img/media/Rettangolo/rettangolo2final.jpg'
 author: Segretaria della Sintassi
 type: citizen
 
 
-name: Re
-surname: della Sintassi
-gender: RE
-age: si
-voice: '/audio/re_azz-andate-miei-bot.mp3'
+name: Zen
+surname: Rettangolo
+gender: Rettangolare
+age: di lati ne ha 4
+voice: '/audio/zen_sayortsukinave.mp3'
 
-birthplace: Ospedale sintassioso del Regno della Sintassi
-height: puoi chiamarlo Re, non c'è bisogno di essere formali
-weight: più pesante di un dizionario
+birthplace: Ospedale di periferia del Regno della Sintassi
+height: Area diviso Base
+weight: è bidimensionale
 
-hobby: leggerti le sue parole preferite
-home: Castello Sintassioso
-likes: La sintassi
-dislikes: Le fanfiction sgrammaticate
+hobby: Aprire casse toraciche
+home: da morto gli piace stare nella mente di Sayortsukinave
+likes: Sayortsukinave
+dislikes: Sayortsukinave
 relation: coming soon
-credenze: Ci mette i dizionari
+credenze: Armadi, non credenze
 ---
 
 <!--

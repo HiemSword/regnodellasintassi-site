@@ -31,6 +31,53 @@ layout: default
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
 
+        <h2><b>Nome:</b> {{ page.name }}</h2>
+        <hr> 
+
+        <h2><b>Cognome:</b> {{ page.surname }}</h2>
+        <hr> 
+
+        <h2><b>Sesso:</b> {{ page.gender }}</h2>
+        <hr> 
+
+        <h2><b>Età:</b> {{ page.age }}</h2>
+        <hr> 
+
+        <h2><b>Voce:</b> 
+          <audio controls>
+            <source src="{{ page.voice }}" type="audio/mpeg">
+          Oops, errore nella riproduzione dell'audio
+          </audio>
+        </h2>
+        <hr> 
+
+        <h2><b>Luogo di nascita:</b> {{ page.birthplace }}</h2>
+        <hr> 
+
+        <h2><b>Altezza:</b> {{ page.height }}</h2>
+        <hr> 
+
+        <h2><b>Peso:</b> {{ page.weight }}</h2>
+        <hr>
+        
+        <h2><b>Hobby:</b> {{ page.hobby }}</h2>
+        <hr>
+
+        <h2><b>Abitazione:</b> {{ page.home }}</h2>
+        <hr>
+
+        <h2><b>Piace:</b> {{ page.likes }}</h2>
+        <hr>
+
+        <h2><b>Non piace:</b> {{ page.dislikes }}</h2>
+        <hr>
+
+        <h2><b>Relazioni:</b> {{ page.relation }}</h2>
+        <hr>
+
+        <h2><b>Credenze:</b> {{ page.credenze }}</h2>
+        <hr>
+
         {{ content }}
 
         <hr>
