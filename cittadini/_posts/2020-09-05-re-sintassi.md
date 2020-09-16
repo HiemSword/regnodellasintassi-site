@@ -2,7 +2,7 @@
 layout: passport
 title: "Re della Sintassi"
 subtitle: "Re del regno della Sintassi"
-date: 2020-09-05 12:00:00 -0100
+date: 2018-09-05 12:00:00 -0100
 
 background: '/img/bg-cittadini.jpg'
 picture: '/img/posts/ReTrono_Colorato2.jpg'
@@ -27,7 +27,12 @@ type: citizen
 
 ----
 
-## **Voce:** Acuta però bellzissima
+## **Voce:** 
+  
+<audio controls>
+  <source src="/audio/re_azz-andate-miei-bot" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio> 
 
 ----
 
