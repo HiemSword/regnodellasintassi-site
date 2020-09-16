@@ -5,7 +5,7 @@ author:             Re della Sintassi
 baseurl:            ""
 url:                "regnodellasintassi.surge.sh"
 timezone: Europe/Rome
-version: '2.9.3'
+version: '2.9.4'
 
 permalink: /:categories/:title/
 
