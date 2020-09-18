@@ -26,7 +26,7 @@ body, html {
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-  background-image: url("img/media/ReTrono_Colorato2.jpg");
+  background-image: url("img/media/ReSintassi/re_trono_2.jpg");
   min-height: 400px;
 }
 
@@ -49,7 +49,7 @@ body, html {
 </style>
 <body>
 
-<!-- Navigation -->
+<!-- Navigation fake-->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav"">
   <div class="container">
     <a class="navbar-brand" href="{{"/" | relative_url }}" style="color: black;">{{ site.title | escape }}</a>
@@ -62,8 +62,15 @@ body, html {
         <li class="nav-item">
           <a class="nav-link" href="{{"/" | relative_url }}" style="color: black;">Home</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{"/about" | relative_url }}" style="color: black;">About</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="{{ "/about" | relative_url }}" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  style="color: black;">
+            About
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="{{ "/about" | relative_url }}">Storia della nascita del Re</a>
+            <a class="dropdown-item" href="{{ "/about/#story-site" | relative_url }}">Storia del Sito</a>
+            <a class="dropdown-item" href="{{ "/cittadini" | relative_url }}">Elenco cittadini del Regno</a>
+          </div>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{{ "/posts" | relative_url }}" style="color: black;">Posts</a>
@@ -87,13 +94,13 @@ body, html {
 <!-- Container (About Section) -->
 <div class="w3-content w3-container w3-padding-64" id="benvenuto">
   <h3 class="w3-center">BENVENUTO NEL MIO REGNO!</h3>
-  <p class="w3-center"><em><!--Versione dev 05--></em></p>
+  <p class="w3-center"></p>
   <p>Benvenuto! Fai come se fossi a casa tua in questo magnifico regno. Qui puoi guardare i miei disegni molto brutti fatti con p a i n t, oppure, puoi guardare i miei blog dove dico cose della mia vita.
     La scelta è tua.</p>
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
-      <p><b><i class="fa fa-user w3-margin-right"></i>Il Re della Sintassi</b></p><br>
-      <img src="img/media/ReSintassi_avatar.png" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="230" height="100">
+      <p><b><i class="fa fa-user m-2"></i>Il Re della Sintassi</b></p><br>
+      <img src="img/media/ReSintassi/re_highquality_alpha.png" class="rounded mx-auto" alt="Foto del re" style="height: 47%; width: 47%;">
     </div>
   <p>Non sai chi sono? Vai su <a href="/about.html"><i><b>About</b></i></a></p>
 

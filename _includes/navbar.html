@@ -11,8 +11,15 @@
         <li class="nav-item">
           <a class="nav-link" href="{{"/" | relative_url }}">Home</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{"/about" | relative_url }}">About</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="{{ "/about" | relative_url }}" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            About
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="{{ "/about" | relative_url }}">Storia della nascita del Re</a>
+            <a class="dropdown-item" href="{{ "/about/#story-site" | relative_url }}">Storia del Sito</a>
+            <a class="dropdown-item" href="{{ "/cittadini" | relative_url }}">Elenco cittadini del Regno</a>
+          </div>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{{ "/posts" | relative_url }}">Posts</a>
