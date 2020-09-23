@@ -6,7 +6,7 @@ rvm:
 # install jekyll from gemfile
 install: 
    - bundle install
-   - npm install --save-dev surge
+
    - rake
    - chmod +x ./scripts/build.sh
    - ./scripts/build.sh
@@ -16,6 +16,7 @@ scripts: true
 
 # deploy to netlify
 after_success: 
+   - npm install --global surge
    - surge --project ./_site
 
 # branch whitelist, only for GitHub Pages
