@@ -16,8 +16,7 @@ scripts: true
 
 # deploy to netlify
 after_success: 
-   - chmod +x ./scripts/deploy.sh
-   - ./scripts/deploy.sh
+   - surge --project ./_site
 
 # branch whitelist, only for GitHub Pages
 branches:
