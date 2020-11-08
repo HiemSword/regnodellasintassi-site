@@ -3,7 +3,7 @@ layout: post
 title: "Spot pubblicitario Hiper"
 subtitle: "dove gli skonti sn bll"
 date: 2020-02-28 12:00:00 -0100
-background: '/img/media/iper.jpg'
+background: '/img/iper.jpg'
 author: Un dipendente Hiper (Sig. Viskonti)
 comments: true
 ---
