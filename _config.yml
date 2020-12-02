@@ -5,17 +5,18 @@ author:             Re della Sintassi
 baseurl:            ""
 url:                "regnodellasintassi.surge.sh"
 timezone: Europe/Rome
-version: '2.9.16'
+version: '2.9.18'
 
 permalink: /:categories/:title/
 
 
 # Social Profiles
-twitter_username:   RSintassi
+twitter_username: RSintassi
 github_username:    
 facebook_username:  
-instagram_username:  redellasintassi
+instagram_username: redellasintassi
 linkedin_username:
+# twitch_username: redellasintassi
 
 # Add your google-analytics ID here to activate google analytics | no fuck you
 # google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code

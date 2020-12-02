@@ -1,132 +1,66 @@
 <!-- Footer -->
 
-<hr>
-
-  <!-- Site footer -->
-  <footer class="site-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 col-md-6">
-          <h6><img src="/img/corona.png" style="height: 25px; position: center;"> Il Regno della Sintassi</h6>
-          <p class="text-justify">Il Regno della Sintassi e tutti i suoi personaggi sono opere di fantasia. Ogni riferimento a persone o cose reali è puramente casuale</p>
-        </div>
-
-        <div class="col-xs-6 col-md-3">
-          <h6></h6>
-          <ul class="footer-links">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
-        </div>
-
-        <div class="col-xs-6 col-md-3">
-          <h6>Quick Links</h6>
-          <ul class="footer-links">
-            <li><a href="{{ "/about" | relative_url }}">About</a></li>
-            <li><a href="{{ "/contact" | relative_url }}">Contact</a></li>
-            <li><a href="{{ "/posts" | relative_url }}">Posts</a></li>
-            <li><a href="{{ "/privacy" | relative_url }}">Privacy Policy</a></li>
-            <li><a href="{{ "/sitemap.xml" | relative_url }}">Sitemap</a></li>
-          </ul>
-        </div>
-      </div>
-      <hr>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-sm-6 col-xs-12">
-          <p class="copyright-text">Copyright &copy; Il Regno della Sintassi {{ 'now' | date: "%Y" }}</p>
-        </div>
-
-        <div class="col-md-4 col-sm-6 col-xs-12">
-          <ul class="social-icons">
-            <!--TODO: Insert social links-->
-            <li><a class="facebook" href="#"><i class="far fa-envelope"></i></a></li>
-            <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
-            <li><a class="dribbble" href="#"><i class="fab fa-instagram"></i></a></li>
-            <li><a class="twitch" href="#"><i class="fab fa-twitch"></i></a></li>   
-          </ul>
-        </div>
-      </div>
-    </div>
-</footer>
-
-
-
-
-<!--
-<footer>
+<footer class="site-footer">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
-        <ul class="list-inline text-center">
-          {% if site.email %}
-          <li class="list-inline-item">
-            <a href="mailto:{{ site.email | encode_email }}">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="far fa-envelope fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          {% endif %}
-          {% if site.twitter_username %}
-          <li class="list-inline-item">
-            <a href="https://twitter.com/{{ site.twitter_username }}">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          {% endif %}
-          {% if site.facebook_username %}
-          <li class="list-inline-item">
-            <a href="https://www.facebook.com/{{ site.facebook_username }}">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          {% endif %}
-          {% if site.linkedin_username %}
-          <li class="list-inline-item">
-            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          {% endif %}
-          {% if site.github_username %}
-          <li class="list-inline-item">
-            <a href="https://github.com/{{ site.github_username }}">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          {% endif %}
-          {% if site.instagram_username %}
-          <li class="list-inline-item">
-            <a href="https://instagram.com/{{ site.instagram_username }}">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          {% endif %}
+      <div class="col-sm-12 col-md-6">
+        <h6><img src="/img/corona.png" style="height: 25px; position: center;"> Il Regno della Sintassi</h6>
+        <p class="text-justify">Il Regno della Sintassi e tutti i suoi personaggi sono opere di fantasia. Ogni riferimento a persone o cose reali è puramente casuale</p>
+      </div>
+
+      <div class="col-xs-6 col-md-3">
+        <h6></h6>
+        <ul class="footer-links">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
         </ul>
-        <p class="copyright text-muted">Copyright &copy; {{ site.author }} {{ 'now' | date: "%Y" }}</p>
+      </div>
+
+      <div class="col-xs-6 col-md-3">
+        <h6>Quick Links</h6>
+        <ul class="footer-links">
+          <li><a href="{{ "/about" | relative_url }}">About</a></li>
+          <li><a href="{{ "/contact" | relative_url }}">Contact</a></li>
+          <li><a href="{{ "/posts" | relative_url }}">Posts</a></li>
+          <li><a href="{{ "/privacy" | relative_url }}">Privacy Policy</a></li>
+          <li><a href="{{ "/sitemap.xml" | relative_url }}">Sitemap</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-sm-6 col-xs-12">
+        <p class="copyright-text">Copyright &copy; Il Regno della Sintassi {{ 'now' | date: "%Y" }}</p>
+      </div>
+
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <ul class="social-icons">
+
+          {% if site.email %}
+          <li><a class="email" href="mailto:{{ site.email | encode_email }}"><i class="far fa-envelope"></i></a></li>
+          {% endif %}
+
+          {% if site.twitter_username %}
+          <li><a class="twitter" href="https://twitter.com/{{ site.twitter_username }}"><i class="fab fa-twitter"></i></a></li>
+          {% endif %}
+
+          {% if site.instagram_username %}
+          <li><a class="instagram" href="https://instagram.com/{{ site.instagram_username }}"><i class="fab fa-instagram"></i></a></li>
+          {% endif %}
+
+          {% if site.twitch_username %}
+          <li><a class="twitch" href="https://www.twitch.tv/{{ site.twitch_username }}"><i class="fab fa-twitch"></i></a></li>
+          {% endif %}   
+        </ul>
       </div>
     </div>
   </div>
-</footer>-->
+</footer>
+
+
