@@ -4,7 +4,7 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-12 col-md-6">
-        <h6><img src="/img/corona.png" style="height: 25px; position: center;"> Il Regno della Sintassi</h6>
+        <a href="/"><h6><img src="/img/corona.png" style="height: 25px; position: center;"> Il Regno della Sintassi</h6></a>
         <p class="text-justify">Il Regno della Sintassi e tutti i suoi personaggi sono opere di fantasia. Ogni riferimento a persone o cose reali è puramente casuale</p>
       </div>
 
@@ -56,6 +56,10 @@
 
           {% if site.twitch_username %}
           <li><a class="twitch" href="https://www.twitch.tv/{{ site.twitch_username }}"><i class="fab fa-twitch"></i></a></li>
+          {% endif %}
+
+          {% if site.youtube_link %}
+          <li><a class="youtube" href="{{ site.youtube_link }}"><i class="fab fa-youtube"></i></a></li>
           {% endif %}   
         </ul>
       </div>
