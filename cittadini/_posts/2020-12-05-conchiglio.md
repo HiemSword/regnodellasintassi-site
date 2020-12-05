@@ -5,7 +5,7 @@ subtitle: "balena"
 date: 2018-09-05 12:00:00 -0100
 
 background: '/img/bg-cittadini.jpg'
-picture: '/img/media/Todoroki/todoroki_dance_crop.png'
+picture: '/img/media/Conchiglio/conchiglio.jpg'
 author: Segretaria della Sintassi
 type: citizen
 
@@ -25,6 +25,6 @@ home: Casa Porcheddu
 likes: I ragazzi con i capelli a nuvola
 dislikes: Stare fuori dal suo territorio
 relation: coming soon
-credenze: karra non mi risponde e non so cosa mettere
+credenze: i grissini da fumare
 ---
 
