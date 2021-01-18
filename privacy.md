@@ -28,12 +28,10 @@ Condividiamo le tue informazioni *solo e esclusivamente* per fornirti servizi co
 
 Condividiamo le tue informazioni al nostro provider di Web Hosting **Surge**, di Web Analytics **Clicky** e di Git Cloud Storage **GitHub**.
 
-## Per quanto tempo teniamo le tue informazioni
+## Per quanto tempo teniamo le tue informazioni?
 
 Riguado alle tue informazioni non condivise direttamente, le teniamo per 30 giorni secondo al nostro piano Web Analytics con **Clicky**
 Invece per le informazioni direttamente condivise (es. commenti e nickname), verrano immagazzine fino a quando non saranno più necessarie.
-
-Per richiedere la cancellazione di queste informazioni contattare via la pagina Contact il responsabile del sito con titolo "Richiesta eliminazione informazioni personali"
 
 ## Quali sono i tuoi diritti di Privacy?
 
