@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Privacy Policy (WORK IN PROGRESS)
+title: Privacy Policy
 description: Privacy Policy del Regno
 background: '/img/bg-about.jpg'
 ---
@@ -17,7 +17,7 @@ Le tue informazioni prima di raggiungere i nostri server vengono annominizati e 
 
 ## Come usiamo le tue informazioni?
 
-Usiamo le tue informazioni solo per scopi legitimi, ad esempio migliorare il sito in base ai commenti che lasci su in post.
+Usiamo le tue informazioni solo per scopi legittimi, ad esempio migliorare il sito in base ai commenti che lasci su dei post.
 Le tue informazioni non verrano mai trasmesse a compagnie esterne senza il tuo permesso o se non scritto nella Privacy Policy
 
 ## Le tue informazioni verrano condivise con qualcuno?
@@ -31,11 +31,11 @@ Condividiamo le tue informazioni al nostro provider di Web Hosting **Surge**, di
 ## Per quanto tempo teniamo le tue informazioni?
 
 Riguado alle tue informazioni non condivise direttamente, le teniamo per 30 giorni secondo al nostro piano Web Analytics con **Clicky**
-Invece per le informazioni direttamente condivise (es. commenti e nickname), verrano immagazzine fino a quando non saranno più necessarie.
+Invece per le informazioni direttamente condivise (es. commenti e nickname), verrano immagazzinate fino a quando non saranno più necessarie.
 
 ## Quali sono i tuoi diritti di Privacy?
 
-In alcune regioni (come l'Unione Europea) hai certi diritti che ti permetto di cancellare le tue informazioni personali in qualsiasi momento.
+In alcune regioni (come l'Unione Europea) hai certi diritti che ti permettono di cancellare le tue informazioni personali in qualsiasi momento.
 Per richiedere la cancellazione di queste informazioni contattare via la pagina Contact il responsabile del sito con titolo "Richiesta eliminazione informazioni personali"
 
 ## Come ci puoi contattare riguardo la tua Privacy?
