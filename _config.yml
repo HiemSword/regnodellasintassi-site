@@ -5,7 +5,9 @@ author:             Re della Sintassi
 baseurl:            ""
 url:                "regnodellasintassi.surge.sh"
 timezone: Europe/Rome
-version: '2.9.21'
+
+version: '2.9.22'
+codename: 'Conchiglio'
 
 permalink: /:categories/:title/
 
