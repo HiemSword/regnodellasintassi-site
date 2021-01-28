@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /cittadini/
+Disallow: /404.html
+Disallow: /staticman.yml
+Sitemap: regnodellasintassi.surge.sh/sitemap.xml
