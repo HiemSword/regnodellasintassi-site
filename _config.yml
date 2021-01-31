@@ -6,7 +6,7 @@ baseurl:            ""
 url:                "regnodellasintassi.surge.sh"
 timezone: Europe/Rome
 
-version: '2.9.24'
+version: '2.9.25'
 codename: 'Conchiglio'
 
 permalink: /:categories/:title/
@@ -18,11 +18,11 @@ github_username:
 facebook_username:  
 instagram_username: redellasintassi
 linkedin_username:
-# twitch_username: redellasintassi
+twitch_username: redellasintassi
 youtube_link: "https://www.youtube.com/channel/UCa-CapJyMu0NqtRoLmE13hw"
 
 # Add your google-analytics ID here to activate google analytics | no fuck you
-# google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+# google_analytics:   UA-XXXXXXXXX-X # your google-analytics code
 
 # Build settings
 markdown:           kramdown
