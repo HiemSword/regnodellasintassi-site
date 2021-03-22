@@ -20,7 +20,7 @@ I nomi dei progetti sono solo placeholders e verranno cambiati in futuro
 
 ### ProjectS RPG 2D "Conad Escape"
 
-Stato: <span class="badge bg-warning">Sospeso</span>
+Stato: <span class="badge bg-warning">In corso</span>
 
 Tipo: Gioco
 
