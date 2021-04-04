@@ -18,9 +18,9 @@ I nomi dei progetti sono solo placeholders e verranno cambiati in futuro
 
 ---
 
-### ProjectS RPG 2D "Conad Escape"
+### ProjectS RPG 2D
 
-Stato: <span class="badge bg-warning">In corso</span>
+Stato: <span class="badge bg-warning">Sospeso</span>
 
 Tipo: Gioco
 
@@ -34,7 +34,7 @@ Tipo: Webcomic
 
 ---
 
-### ProjectS Making Live
+### ProjectS Live #1
 
 Stato: <span class="badge bg-danger text-light">Annulato</span>
 
@@ -72,7 +72,6 @@ Si divide in:
 - Pagine web <span class="badge bg-secondary text-light">2%</span>
 - Framework del sito <span class="badge bg-secondary text-light">100%</span>
 
-Stato: <span class="badge bg-primary text-light">15% completato</span>
 
 Tipo: Sito web
 
