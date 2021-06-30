@@ -11,7 +11,7 @@ codename: 'Conchiglio'
 
 permalink: /:categories/:title/
 
-include: /img/media/MC
+include: [/img/media/MC]
 
 # Social Profiles
 twitter_username: RSintassi
