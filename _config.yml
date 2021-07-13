@@ -6,7 +6,7 @@ baseurl:            ""
 url:                "regnodellasintassi.surge.sh"
 timezone: Europe/Rome
 
-version: '2.9.26'
+version: '2.9.27'
 codename: 'Conchiglio'
 
 permalink: /:categories/:title/
