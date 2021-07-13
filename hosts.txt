@@ -65603,7 +65603,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.googlpe.com
 0.0.0.0 goovgle.com
 0.0.0.0 www.goovgle.com
-0.0.0.0 yotube.com
+192.168.1.142 yotube.com
 0.0.0.0 www.yotube.com
 0.0.0.0 youutbe.com
 0.0.0.0 www.youutbe.com
