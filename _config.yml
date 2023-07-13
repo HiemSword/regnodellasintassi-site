@@ -14,13 +14,13 @@ permalink: /:categories/:title/
 #include: [/img/media/MC/_Krek3r_.png, /img/media/MC/_TNTs_.png]
 
 # Social Profiles
-twitter_username: RSintassi
+#twitter_username: RSintassi
 github_username:    
 facebook_username:  
-instagram_username: redellasintassi
+#instagram_username: redellasintassi
 linkedin_username:
-twitch_username: redellasintassi
-youtube_link: "https://www.youtube.com/channel/UCa-CapJyMu0NqtRoLmE13hw"
+#twitch_username: redellasintassi
+#youtube_link: "https://www.youtube.com/channel/UCa-CapJyMu0NqtRoLmE13hw"
 
 # Add your google-analytics ID here to activate google analytics | no fuck you
 # google_analytics:   UA-XXXXXXXXX-X # your google-analytics code
